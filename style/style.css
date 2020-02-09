@@ -1,0 +1,142 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+}
+.header-contacts{
+  display: flex;
+  padding: 15px 15px;
+  background-color: #44B1D2;
+  justify-content: space-between;
+  color: #fff;
+}
+.header-contacts li{
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.logo{
+  padding-top: 20px;
+}
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu{
+  display: flex;
+  color: #323232;
+  padding-right: 15px;
+}
+
+.nav-menu li{
+  list-style-type: none;
+  padding: 30px 0;
+}
+.nav-menu li a{
+  padding: 40px 30px;
+  text-transform: uppercase;
+}
+.nav-menu li:last-child {
+  padding-right: 0;
+}
+.nav-menu li:last-child a{
+  padding-right: 0;
+}
+.nav-menu a:hover{
+  border-bottom: 3px solid #44B1D2;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #323232;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+}
+.services-header{
+  display: flex;
+}
+.services-title{
+  margin: 30px auto;
+  padding: 15px 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #44B1D2;
+}
+.services-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  flex-wrap: wrap;
+}
+.services-item{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 15px;
+  color: #fff;
+  flex: 0 0 21%;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-title{
+  display: flex;
+  justify-content: center;
+}
+.item-list{
+  margin: 0 auto;
+  line-height: 1.5;
+  min-height: 30vh;
+  font-weight: 400;
+  font-size: 12px;
+}
+.item-list li span{
+  font-weight: 600;
+}
+.item-1{
+  background: url(../img/item1.png) no-repeat;
+  background-size: cover;
+  background-color: #44B1D2;
+}
+.item-2{
+  background: url(../img/item2.png) no-repeat;
+  background-size: cover;
+  background-color: #44B1D2;
+}
+.item-3{
+  background: url(../img/item3.png) no-repeat;
+  background-size: cover;
+  background-color: #44B1D2;
+}
+.item-4{
+  background: url(../img/item4.png) no-repeat;
+  background-size: cover;
+  background-color: #44B1D2;
+}
+.item-add{
+  display: flex;
+  flex: 0 0 100%;
+  margin: 15px 0;
+
+}
+.services-item:last-child{
+  color: #A3A3A2;
+}
+.item-btn{
+  padding: 15px;
+  border: 1px solid #fff;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+}
